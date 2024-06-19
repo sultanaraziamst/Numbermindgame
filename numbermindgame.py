@@ -35,6 +35,19 @@ while count < math.log(upper-minor + 1, 2):
         print("Congratulations you did it in ",
         count, " try")
 
-      
+    
+
+  #once gussed, loop will be break
+        break
+    elif x > guess:
+        print("You gussed too small")
+    elif x < guess:
+        print("you gussed too high!")
 
 
+#if gussing is more than required gusses, 
+#show this output
+
+if count >= math.log(upper -minor +1 , 2):
+    print("\nThe number is %d % x")
+    print("\Btter luck next time!")
